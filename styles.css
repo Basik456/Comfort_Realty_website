@@ -1,4 +1,4 @@
-* {
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -21,7 +21,6 @@
             font-size: 1.5rem;
             margin-bottom: 20px;
         }
-        /* Nav → List */
         .nav{
             position: absolute;
             height: 521px;
@@ -39,7 +38,6 @@
         }
         .nav ul li {
             margin: 25px 20px;
-            /*height: 22px;*/
             left: 0px;
             right: 0px;
             top: 30px;
@@ -62,7 +60,7 @@
             text-align: center;
             padding: 50px 0;
             color: #fff;
-            /*background: #f4f4f4;*/
+    
         }
         .hero .btn {
             display: inline-block;
@@ -76,6 +74,7 @@
         .services {
             text-align: center;
             padding: 50px 0;
+            position: relative; 
         }
         .service-item {
             margin: 15px 0;
@@ -98,15 +97,16 @@
             overflow: hidden;
         }    
         .img-bg-1 {
-            padding: 0;
-            margin: 0;
             position: absolute;
-            width:100%;
-            height: auto;
-            left: 0;
-            overflow: hidden;
-            z-index: -1
-           
+            left: -6%;
+            width: 107.5%;
+            height: 100%; 
+            z-index: -1;
+            
+            background-image: url('https://static.wixstatic.com/media/8125fd_2d8f858e90d44226a9431298165dd09b~mv2.png');
+            background-repeat: repeat;
+            background-size: auto; 
+            background-position: top left;
         }
         .first-image {
             position: absolute;
@@ -158,5 +158,39 @@
             padding-left: 10%;
             padding-right: 10%;
         }
+        .intro_1{
+            color: #fff;
+            line-height: 35px;
+            padding-right: 10%;
+            text-align: left;
+        }
 
+        .text-promo{
+            color: #fff;
+            line-height: 35px;
+            padding-right: 10%;
+            text-align: left;
+            padding-top: 5%;
+        }
 
+        table{
+            padding-top: 5%;
+            color: #fff;
+            line-height: 35px;
+            padding-right: 10%;
+            text-align: left;
+        }
+        .img{
+            width: 30em;
+        }
+        td{
+            padding-top: 5%;  
+        }
+        .text-promo-right{
+            color: #fff;
+            line-height: 35px;
+            padding-right: 10%;
+            text-align: left;
+            padding-top: 5%;
+            padding-left: 5%;
+        }
